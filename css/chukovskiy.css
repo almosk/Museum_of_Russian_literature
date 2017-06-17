@@ -23,7 +23,7 @@ body {
   z-index: 3; }
   .logoLine p {
     width: 7000px;
-    font-family: OldStandard-Regular;
+    font-family: OldStandart-Regular;
     font-size: 17px;
     margin-left: -6076px;
     display: block; }
@@ -184,7 +184,7 @@ nav {
   width: 712px;
   position: relative;
   padding-top: 50px;
-  font-family: OldStandard-Regular;
+  font-family: OldStandart-Regular;
   font-size: 44px;
   color: #2A2C66;
   line-height: 54px; }
@@ -219,7 +219,7 @@ lead {
   padding: 47px;
   border: 2px solid #2A2C66;
   display: block;
-  font-family: OldStandard-Regular;
+  font-family: OldStandart-Regular;
   font-size: 44px;
   color: #2A2C66;
   line-height: 52px;
