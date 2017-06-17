@@ -15,18 +15,30 @@ body {
   height: 6000px; }
 
 .logoLine {
-  width: 6000px;
+  width: 100vh;
   position: absolute;
   transform: rotate(-90deg);
-  left: -2950px;
-  top: 3000px;
-  font-family: OldStandardTT-Regular;
-  font-size: 17px;
-  color: #000000; }
+  top: 48vh;
+  left: calc(-48vh + 25px);
+  z-index: 3; }
+  .logoLine p {
+    width: 7000px;
+    font-family: OldStandardTT-Regular;
+    font-size: 17px;
+    margin-left: -6076px;
+    display: block; }
+
+.white {
+  color: white;
+  z-index: 4;
+  overflow: hidden; }
+
+.black {
+  color: black; }
 
 .landingWrapper {
   width: 100%;
-  height: 6000px;
+  height: 5000px;
   position: absolute;
   display: flex;
   flex-direction: column;
@@ -128,7 +140,11 @@ p {
   p + p {
     margin-top: 15px; }
 
-quote {
+.pSmall {
+  font-size: 12px;
+  line-height: 16px; }
+
+lead {
   width: 892px;
   height: 411px;
   margin: 50px 0 50px -90px;
@@ -152,7 +168,8 @@ quote {
     font-size: 28px;
     color: #2A2C66;
     line-height: 36px;
-    margin-top: 0; }
+    margin-top: 0;
+    margin-left: 0; }
   .textTables h2 {
     font-family: AkzidenzGroteskPro-Regular;
     font-size: 20px;
