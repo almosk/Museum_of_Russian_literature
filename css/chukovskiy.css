@@ -23,7 +23,7 @@ body {
   z-index: 3; }
   .logoLine p {
     width: 7000px;
-    font-family: OldStandardTT-Regular;
+    font-family: OldStandard-Regular;
     font-size: 17px;
     margin-left: -6076px;
     display: block; }
@@ -38,7 +38,7 @@ body {
 
 .landingWrapper {
   width: 100%;
-  height: 5000px;
+  height: 6000px;
   position: absolute;
   display: flex;
   flex-direction: column;
@@ -85,7 +85,7 @@ nav {
     background-position: center;
     background-repeat: no-repeat;
     position: absolute;
-    width: 150px;
+    width: 100px;
     height: 100vh;
     cursor: pointer;
     z-index: 99; }
@@ -184,7 +184,7 @@ nav {
   width: 712px;
   position: relative;
   padding-top: 50px;
-  font-family: OldStandardTT-Regular;
+  font-family: OldStandard-Regular;
   font-size: 44px;
   color: #2A2C66;
   line-height: 54px; }
@@ -219,7 +219,7 @@ lead {
   padding: 47px;
   border: 2px solid #2A2C66;
   display: block;
-  font-family: OldStandardTT-Regular;
+  font-family: OldStandard-Regular;
   font-size: 44px;
   color: #2A2C66;
   line-height: 52px;
@@ -306,6 +306,44 @@ lead {
 
 .botton:hover {
   transform: scale(1.05); }
+
+.workers {
+  position: relative;
+  width: 1000px;
+  margin-left: -91px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start; }
+
+.workersItem {
+  width: 197px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-right: 74px;
+  margin-top: 36px; }
+  .workersItem img {
+    position: relative;
+    width: 167px;
+    opacity: .5; }
+  .workersItem img:hover {
+    opacity: 1; }
+  .workersItem h1 {
+    position: relative;
+    font-family: AkzidenzGroteskPro-Md;
+    font-size: 26px;
+    line-height: 30px;
+    margin-top: 12px;
+    margin-left: -10px; }
+  .workersItem p {
+    position: relative;
+    font-family: AkzidenzGroteskPro-Regular;
+    font-size: 12px;
+    line-height: 14px;
+    margin-top: 7px;
+    width: 200px; }
 
 img {
   position: absolute;
