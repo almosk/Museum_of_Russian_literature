@@ -6,11 +6,14 @@ a {
   text-decoration: none; }
 
 @font-face {
-  src: url(../fonts/AkzidenzGroteskPro-Md.otf); }
+  src: url(../fonts/AkzidenzGroteskPro-Md.otf);
+  font-family: AkzidenzGroteskPro-Md; }
 @font-face {
-  src: url(../fonts/AkzidenzGroteskPro-Regular.otf); }
+  src: url(../fonts/AkzidenzGroteskPro-Regular.otf);
+  font-family: AkzidenzGroteskPro-Regular; }
 @font-face {
-  src: url(../fonts/OldStandart-Regular.otf); }
+  src: url(../fonts/OldStandart-Regular.otf);
+  font-family: OldStandart-Regular; }
 body {
   height: 6000px; }
 
