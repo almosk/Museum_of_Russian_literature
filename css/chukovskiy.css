@@ -49,24 +49,92 @@ body {
   width: 100vw;
   height: 100vh;
   position: relative;
-  background-image: url(../img/chukovskiyFirstPage.png);
-  background-size: cover;
+  overflow: hidden; }
+
+.logoWrapper {
+  position: absolute;
+  width: 100%;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center; }
-  .firstPage .logo {
+  .logoWrapper .logo {
     width: 463px;
     height: 463px;
     background-image: url(../img/chukovskiyLogo.svg);
     z-index: 2; }
 
-.firstPage::after {
+.overlay {
   width: 100%;
   height: 100%;
   position: absolute;
-  content: '';
   background-color: black;
   opacity: .3; }
+
+nav {
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  /*display: flex;
+  flex-direction: row;
+  justify-content: space-between;*/
+  z-index: 5; }
+  nav .scrollPlus,
+  nav .scrollMinus {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 150px;
+    height: 100vh;
+    cursor: pointer;
+    z-index: 99; }
+  nav .scrollPlus:active,
+  nav .scrollMinus:active {
+    transform: scale(1.1); }
+  nav .scrollPlus {
+    background-image: url(../img/plus.svg);
+    right: 0px; }
+  nav .scrollMinus {
+    background-image: url(../img/minus.svg);
+    left: 0px; }
+
+.hidden {
+  opacity: 0;
+  cursor: default;
+  display: none; }
+
+.gallery {
+  width: 600vw;
+  height: 100vh;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start; }
+
+.galleryItem {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  background-size: cover; }
+
+#gi1 {
+  background-image: url(../img/chukovskiyFirstPage1.png); }
+
+#gi2 {
+  background-image: url(../img/chukovskiyFirstPage2.jpg); }
+
+#gi3 {
+  background-image: url(../img/chukovskiyFirstPage3.jpg); }
+
+#gi4 {
+  background-image: url(../img/chukovskiyFirstPage4.jpg); }
+
+#gi5 {
+  background-image: url(../img/chukovskiyFirstPage5.jpg); }
+
+#gi6 {
+  background-image: url(../img/chukovskiyFirstPage6.jpg); }
 
 .info {
   width: 1109px;

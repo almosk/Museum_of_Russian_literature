@@ -5,11 +5,13 @@
     <title>Музей русской литературы</title>
 
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/chukovskiy.css">
     <link rel="stylesheet" href="css/menubar.css">
+    <link rel="stylesheet" href="css/chukovskiy.css">
 
     <script src="js/jquery.js" charset="utf-8"></script>
     <script src="js/menubar.js" charset="utf-8"></script>
+    <script src="js/gallery.js" charset="utf-8"></script>
+
 
   </head>
   <body>
@@ -35,7 +37,25 @@
 
   <section class="landingWrapper">
     <section class="firstPage">
-      <div class="logo"></div>
+      <div class="logoWrapper">
+        <div class="logo"></div>
+      </div>
+
+      <nav>
+        <div class="scrollMinus hidden"></div>
+        <div class="scrollPlus"></div>
+      </nav>
+
+      <section class="gallery">
+        <section class="galleryItem" id="gi1"></section>
+        <section class="galleryItem" id="gi2"></section>
+        <section class="galleryItem" id="gi3"></section>
+        <section class="galleryItem" id="gi4"></section>
+        <section class="galleryItem" id="gi5"></section>
+        <section class="galleryItem" id="gi6"></section>
+      </section>
+
+      <div class="overlay"></div>
     </section>
 
     <section class="info">
