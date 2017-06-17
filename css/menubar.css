@@ -1,0 +1,36 @@
+.menubar {
+  width: 100vw;
+  height: 50px;
+  position: fixed;
+  background-color: white;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+
+  z-index: 3;
+  opacity: .6;
+}
+
+.menubar:hover {
+  opacity: 1;
+  transition: .2s ease;
+}
+
+.navigation {
+  width: 800px;
+  right: 50px;
+  position: absolute;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: row;
+
+  font-family: AkzidenzGroteskPro-Md;
+}
+
+.navItem {
+  margin: 0 10px;
+}

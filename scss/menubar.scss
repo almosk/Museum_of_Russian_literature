@@ -1,0 +1,30 @@
+.menubar {
+  width: 100vw;
+  height: 50px;
+  position: fixed;
+  background-color: white;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+
+  z-index: 2;
+}
+
+.navigation {
+  width: 800px;
+  right: 50px;
+  position: absolute;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: row;
+
+  font-family: AkzidenzGroteskPro-Md;
+}
+
+.navItem {
+  margin: 0 20px;
+}
