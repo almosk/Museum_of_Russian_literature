@@ -18,7 +18,11 @@ body {
   width: 6000px;
   position: absolute;
   transform: rotate(-90deg);
-  left: -2980px; }
+  left: -2950px;
+  top: 3000px;
+  font-family: OldStandardTT-Regular;
+  font-size: 17px;
+  color: #000000; }
 
 .landingWrapper {
   width: 100%;
@@ -105,7 +109,7 @@ body {
   color: #2A2C66;
   line-height: 54px; }
 
-.text, .text2, .workers, .text3 {
+.text {
   width: 712px;
   position: relative; }
 
@@ -198,6 +202,36 @@ p {
   font-size: 20px;
   color: #000000;
   line-height: 37px;
-  text-align: center; }
+  text-align: center;
+  transition: .2s ease;
+  cursor: pointer; }
+
+.botton:hover {
+  transform: scale(1.05); }
+
+.images {
+  width: 100vw;
+  height: 5000px;
+  margin-left: calc((100vw - 712px) / -2);
+  position: absolute; }
+  .images img {
+    position: absolute;
+    transition: .2s ease; }
+
+#img1 {
+  width: 438px;
+  margin-top: 968px;
+  left: 0;
+  opacity: .4; }
+
+#img2 {
+  width: 500px;
+  margin-top: 1400px;
+  right: 0;
+  opacity: .4; }
+
+#img1:hover, #img2:hover {
+  opacity: 1;
+  z-index: 2; }
 
 /*# sourceMappingURL=chukovskiy.css.map */
