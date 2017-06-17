@@ -6,7 +6,7 @@
 
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
 
   z-index: 999;
@@ -15,7 +15,7 @@
 
 .menubar:hover {
   opacity: 1;
-  transition: .2s ease;
+  transition: .9s ease;
 }
 
 .firstpage {
@@ -24,10 +24,27 @@
   opacity: 1;
 }
 
+.contents {
+  width: 500px;
+  margin-left: 100px;
+  font-family: AkzidenzGroteskPro-Md;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
+.arrow {
+  width: 20px;
+  height: 20px;
+  background-image: url(../img/arrow.svg);
+  background-size: cover;
+  margin: 0 0;
+}
+
 .navigation {
   width: 800px;
-  right: 50px;
-  position: absolute;
+  margin-right: 50px;
 
   display: flex;
   align-items: center;
