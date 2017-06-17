@@ -12,8 +12,8 @@ a {
   src: url(../fonts/AkzidenzGroteskPro-Regular.otf);
   font-family: AkzidenzGroteskPro-Regular; }
 @font-face {
-  src: url(../fonts/OldStandart-Regular.ttf);
-  font-family: OldStandart-Regular; }
+  src: url(../fonts/OldStandard-Regular.ttf);
+  font-family: OldStandard-Regular; }
 body {
   height: 6000px; }
 
@@ -26,7 +26,7 @@ body {
   z-index: 3; }
   .logoLine p {
     width: 7000px;
-    font-family: OldStandart-Regular;
+    font-family: OldStandard-Regular;
     font-size: 17px;
     margin-left: -6076px;
     display: block; }
@@ -187,7 +187,7 @@ nav {
   width: 712px;
   position: relative;
   padding-top: 50px;
-  font-family: OldStandart-Regular;
+  font-family: OldStandard-Regular;
   font-size: 44px;
   color: #2A2C66;
   line-height: 54px; }
@@ -222,7 +222,7 @@ lead {
   padding: 47px;
   border: 2px solid #2A2C66;
   display: block;
-  font-family: OldStandart-Regular;
+  font-family: OldStandard-Regular;
   font-size: 44px;
   color: #2A2C66;
   line-height: 52px;
