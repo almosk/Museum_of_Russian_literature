@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+@font-face {
+  src: url(../fonts/AkzidenzGroteskPro-Md.otf);
+  font-family: AkzidenzGroteskPro-Md
+}
+
+@font-face {
+  src: url(../fonts/AkzidenzGroteskPro-Regular.otf);
+  font-family: AkzidenzGroteskPro-Regular
+}
+
+@font-face {
+  src: url(../fonts/OldStandard-Regular.ttf);
+  font-family: OldStandard-Regular
+}

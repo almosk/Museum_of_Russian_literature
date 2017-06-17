@@ -1,0 +1,92 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.hidden {
+  opacity: 0;
+  cursor: default;
+  /*display: none;*/
+}
+
+.museumsWrapper {
+  width: 100vw;
+  min-width: 1440px;
+  height: 100vh;
+  position: absolute;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  z-index: 9;
+}
+
+.museumsItem {
+  transition: .7s ease;
+}
+
+a {
+  width: auto;
+  display: block;
+  font-size: 54px;
+  font-family: AkzidenzGroteskPro-Md;
+  letter-spacing: 1.86px;
+  cursor: pointer;
+}
+
+#mi1  {margin-left: 394px;}
+#mi2  {margin-left: 153px;}
+#mi3  {margin-left: 179px;}
+#mi4  {margin-left: 2px;  }
+#mi5  {margin-left: 180px;}
+#mi6  {margin-left: 454px;}
+#mi7  {margin-left: 19px; }
+#mi8  {margin-left: 166px;}
+#mi9  {margin-left: 179px;}
+#mi10 {margin-left: 175px;}
+#mi11 {margin-left: 161px;}
+#mi12 {margin-left: 335px;}
+
+.backgroundsItem {
+  overflow: hidden;
+  transition: .7s ease;
+}
+
+img {
+  position: absolute;
+  width: 400px;
+  height: auto;
+  opacity: .5;
+}
+
+#bi1im1 {width: 456px; margin-top: 50px;  margin-left: 182px;}
+#bi1im2 {width: 436px; margin-top: -44px; margin-left: 821px;}
+#bi1im3 {width: 290px; margin-top: 461px; margin-left: 1177px;}
+#bi1im4 {width: 286px; margin-top: 524px; margin-left: -195px;}
+#bi1im5 {width: 397px; margin-top: 769px; margin-left: 984px;}
+
+.logoLine {
+  width: 100vh;
+  position: absolute;
+  z-index: 3
+}
+
+.top {
+  top: 10px;
+}
+
+.bottom {
+  bottom: 10px;
+  right: 0;
+  transform: rotate(180deg);
+
+}
+
+p {
+  width: 5800px;
+  font-family: OldStandard-Regular;
+  font-size: 17px;
+  display: block;
+}
