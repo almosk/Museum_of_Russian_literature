@@ -128,12 +128,25 @@ p {
   p + p {
     margin-top: 15px; }
 
+quote {
+  width: 892px;
+  height: 411px;
+  margin: 50px 0 50px -90px;
+  padding: 47px;
+  border: 2px solid #2A2C66;
+  display: block;
+  font-family: OldStandardTT-Regular;
+  font-size: 44px;
+  color: #2A2C66;
+  line-height: 52px;
+  text-align: center; }
+
 .textTables {
   width: 1114px;
   position: relative;
   margin-left: -199px;
-  margin-top: 50px;
-  margin-bottom: 50px; }
+  margin-top: 20px;
+  margin-bottom: 20px; }
   .textTables h1 {
     font-family: AkzidenzGroteskPro-Md;
     font-size: 28px;
@@ -209,28 +222,31 @@ p {
 .botton:hover {
   transform: scale(1.05); }
 
-.images {
-  width: 100vw;
-  height: 5000px;
-  margin-left: calc((100vw - 712px) / -2);
-  position: absolute; }
-  .images img {
-    position: absolute;
-    transition: .2s ease; }
+img {
+  position: absolute;
+  transition: .2s ease; }
 
 #img1 {
   width: 438px;
-  margin-top: 968px;
-  left: 0;
+  left: calc((100vw - 712px) / -2);
+  margin-top: -100px;
   opacity: .4; }
 
 #img2 {
-  width: 500px;
-  margin-top: 1400px;
-  right: 0;
+  width: 438px;
+  right: calc((100vw - 712px) / -2);
+  margin-top: 50px;
   opacity: .4; }
 
-#img1:hover, #img2:hover {
+#img3 {
+  width: 438px;
+  left: calc((100vw - 712px) / -2);
+  margin-top: -100px;
+  opacity: .4; }
+
+#img1:hover,
+#img2:hover,
+#img3:hover {
   opacity: 1;
   z-index: 2; }
 
