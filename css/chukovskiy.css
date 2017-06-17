@@ -12,7 +12,7 @@ a {
   src: url(../fonts/AkzidenzGroteskPro-Regular.otf);
   font-family: AkzidenzGroteskPro-Regular; }
 @font-face {
-  src: url(../fonts/OldStandart-Regular.otf);
+  src: url(../fonts/OldStandart-Regular.ttf);
   font-family: OldStandart-Regular; }
 body {
   height: 6000px; }
