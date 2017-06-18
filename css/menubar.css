@@ -15,7 +15,7 @@
 
 .menubar:hover {
   opacity: 1;
-  transition: .9s ease;
+  transition: .4s ease;
 }
 
 .firstpage {
@@ -27,11 +27,15 @@
 .contents {
   width: 500px;
   margin-left: 100px;
-  font-family: AkzidenzGroteskPro-Md;
+  font-family: AkzidenzGroteskPro-Regular;
   display: flex;
   align-items: center;
   justify-content: flex-start;
   flex-direction: row;
+}
+
+.contents>a {
+  font-family: AkzidenzGroteskPro-Md;
 }
 
 .arrow {
