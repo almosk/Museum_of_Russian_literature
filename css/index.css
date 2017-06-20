@@ -24,7 +24,7 @@ body {
 }
 
 .museumsItem {
-  transition: .7s ease;
+  transition: .4s ease;
 }
 
 .museums {
@@ -85,7 +85,8 @@ img {
 .logoLine {
   width: 100vh;
   position: absolute;
-  z-index: 3
+  z-index: 3;
+  color: #1324A5;
 }
 
 .top {
