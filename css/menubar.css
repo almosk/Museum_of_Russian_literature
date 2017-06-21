@@ -11,6 +11,8 @@
 
   z-index: 999;
   opacity: .6;
+
+  font-size: 16px;
 }
 
 .menubar:hover {
@@ -24,9 +26,17 @@
   opacity: 1;
 }
 
+.firstpage:hover {
+  background-color: rgba(0,0,0, .8);
+}
+
+.firstpage .museumsList, .firstpage .contentList{
+  background-color: rgba(0,0,0, .8);
+}
+
 .contents {
-  width: 500px;
-  margin-left: 100px;
+  width: 600px;
+  margin-left: 70px;
   font-family: AkzidenzGroteskPro-Regular;
   display: flex;
   align-items: center;
@@ -40,6 +50,7 @@
 
 .arrow {
   width: 20px;
+  /*min-width: 20px;*/
   height: 20px;
   background-image: url(../img/arrow.svg);
   background-size: cover;
@@ -61,8 +72,75 @@
 .navItem {
   margin: 0 10px;
   cursor: pointer;
+  position: relative;
 }
 
 .navItem:hover {
   text-decoration: underline;
+}
+
+.museumsList {
+  position: absolute;
+  width: 330px;
+  top: 28px;
+  left: -15px;
+  padding-top: 10px;
+  padding-left: 15px;
+  background-color: white;
+}
+
+.museumsListItem {
+  display: block;
+  height: 35px;
+}
+
+.museumsListItem:hover {
+  text-decoration: underline;
+}
+
+#ni2:hover::before {
+  width: 330px;
+  height: 420px;
+  position: absolute;
+  left: 0;
+  content: '';
+  /*background-color: yellow;*/
+}
+
+#mi9 {
+  font-family: AkzidenzGroteskPro-Md;
+}
+
+.contentList {
+  position: absolute;
+  width: 300px;
+  top: 28px;
+  left: -15px;
+  padding-top: 10px;
+  padding-left: 15px;
+  background-color: white;
+}
+
+.contentListItem {
+  display: block;
+  height: 35px;
+}
+
+.contentListItem:hover {
+  text-decoration: underline;
+}
+
+#ni3:hover::before {
+  width: 300px;
+  height: 250px;
+  position: absolute;
+  left: 0;
+  content: '';
+  /*background-color: yellow;*/
+}
+
+@media (max-width: 1129px) {
+  .menubar {
+    font-size: 13px;
+  }
 }
