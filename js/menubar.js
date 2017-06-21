@@ -6,11 +6,13 @@ $(function() {
     if ((-elTop) > documentHeight) {
       $('.menubar').removeClass('firstpage')
 			$('.arrow').css({"background-image": "url(img/arrow_black.svg)"});
+			$('#hamb').css({"background-image": "url(img/hamburger_black.svg)"});
     }
 
     if ((-elTop) < documentHeight) {
       $('.menubar').addClass('firstpage')
 			$('.arrow').css({"background-image": "url(img/arrow.svg)"});
+			$('#hamb').css({"background-image": "url(img/hamburger.svg)"});
     }
 
     // console.log('Scroll', elTop, documentHeight)

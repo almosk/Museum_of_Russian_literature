@@ -1,6 +1,3 @@
-body {
-  height: 5800px; }
-
 .logoLine {
   width: 100vh;
   position: absolute;
@@ -9,7 +6,6 @@ body {
   left: calc(-48vh + 25px);
   z-index: 3; }
   .logoLine p {
-    width: 5800px;
     font-family: OldStandard-Regular;
     font-size: 17px;
     margin-left: calc(-5790px + 100vh);
@@ -25,7 +21,6 @@ body {
 
 .landingWrapper {
   width: 100%;
-  height: 5800px;
   position: absolute;
   display: flex;
   flex-direction: column;
@@ -35,6 +30,7 @@ body {
 .firstPage {
   width: 100vw;
   height: 100vh;
+  min-height: 100vh;
   position: relative;
   overflow: hidden; }
 
@@ -65,7 +61,11 @@ nav {
   /*display: flex;
   flex-direction: row;
   justify-content: space-between;*/
-  z-index: 5; }
+  z-index: 5;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center; }
   nav .scrollPlus,
   nav .scrollMinus {
     background-size: contain;
@@ -73,7 +73,7 @@ nav {
     background-repeat: no-repeat;
     position: absolute;
     width: 100px;
-    height: 100vh;
+    height: 100px;
     cursor: pointer;
     z-index: 99; }
   nav .scrollPlus:active,

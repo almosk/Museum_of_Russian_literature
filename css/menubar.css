@@ -3,50 +3,41 @@
   height: 40px;
   position: fixed;
   background-color: white;
-
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-
   z-index: 999;
   opacity: .6;
-
-  font-size: 16px;
-}
+  font-size: 16px; }
 
 .menubar:hover {
   opacity: 1;
-  transition: .4s ease;
-}
+  transition: .4s ease; }
 
 .firstpage {
   color: white;
   background-color: inherit;
-  opacity: 1;
-}
+  opacity: 1; }
 
 .firstpage:hover {
-  background-color: rgba(0,0,0, .8);
-}
+  background-color: rgba(0, 0, 0, 0.8); }
 
-.firstpage .museumsList, .firstpage .contentList{
-  background-color: rgba(0,0,0, .8);
-}
+.firstpage .museumsList, .firstpage .contentList, .firstpage .hambList {
+  background-color: rgba(0, 0, 0, 0.8); }
 
 .contents {
   width: 750px;
+  min-width: 750px;
   margin-left: 70px;
   font-family: AkzidenzGroteskPro-Regular;
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  flex-direction: row;
-}
+  flex-direction: row; }
 
-.contents>a {
-  font-family: AkzidenzGroteskPro-Md;
-}
+.contents > a {
+  font-family: AkzidenzGroteskPro-Md; }
 
 .arrow {
   width: 20px;
@@ -54,30 +45,24 @@
   height: 20px;
   background-image: url(../img/arrow.svg);
   background-size: cover;
-  margin: 0 0;
-}
+  margin: 0 0; }
 
 .navigation {
-  width: 800px;
+  width: 600px;
   margin-right: 50px;
-
   display: flex;
   align-items: center;
   justify-content: flex-end;
   flex-direction: row;
-
-  font-family: AkzidenzGroteskPro-Md;
-}
+  font-family: AkzidenzGroteskPro-Md; }
 
 .navItem {
   margin: 0 10px;
   cursor: pointer;
-  position: relative;
-}
+  position: relative; }
 
 .navItem:hover {
-  text-decoration: underline;
-}
+  text-decoration: underline; }
 
 .museumsList {
   position: absolute;
@@ -86,17 +71,14 @@
   left: -15px;
   padding-top: 10px;
   padding-left: 15px;
-  background-color: white;
-}
+  background-color: white; }
 
 .museumsListItem {
   display: block;
-  height: 35px;
-}
+  height: 35px; }
 
 .museumsListItem:hover {
-  text-decoration: underline;
-}
+  text-decoration: underline; }
 
 #ni2:hover::before {
   width: 330px;
@@ -104,12 +86,10 @@
   position: absolute;
   left: 0;
   content: '';
-  /*background-color: yellow;*/
-}
+  /*background-color: yellow;*/ }
 
 #mi9 {
-  font-family: AkzidenzGroteskPro-Md;
-}
+  font-family: AkzidenzGroteskPro-Md; }
 
 .contentList {
   position: absolute;
@@ -119,21 +99,17 @@
   padding-top: 10px;
   padding-left: 15px;
   background-color: white;
-  display: none;
-}
+  display: none; }
 
 #ni3:hover .contentList {
-  display: block;
-}
+  display: block; }
 
 .contentListItem {
   display: block;
-  height: 35px;
-}
+  height: 35px; }
 
 .contentListItem:hover {
-  text-decoration: underline;
-}
+  text-decoration: underline; }
 
 #ni3:hover::before {
   width: 300px;
@@ -141,32 +117,53 @@
   position: absolute;
   left: 0;
   content: '';
-  /*background-color: yellow;*/
-}
+  /*background-color: yellow;*/ }
 
 #hamb {
   width: 25px;
   height: 25px;
   position: relative;
   display: none;
-
   background-image: url(../img/hamburger.svg);
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: center;
-}
+  background-position: center; }
 
-@media (max-width: 1129px) {
-  .menubar {
-    font-size: 13px;
-  }
+.hambList {
+  display: none;
+  position: absolute;
+  width: 370px;
+  top: 28px;
+  left: -80px;
+  padding-top: 10px;
+  padding-left: 15px;
+  background-color: white; }
 
-  .navigation div {
-    display: none;
-  }
+#hamb:hover .hambList {
+  display: block; }
+
+#hamb:hover::before {
+  width: 330px;
+  top: 0px;
+  left: -100px;
+  height: 210px;
+  position: absolute;
+  left: 0;
+  content: '';
+  /*background-color: yellow;*/ }
+
+.hambItem {
+  display: block;
+  height: 35px; }
+
+.hambItem:hover {
+  text-decoration: underline; }
+
+@media (max-width: 1350px) {
+  .fullmenu {
+    display: none; }
 
   #hamb {
-    display: block;
-  }
+    display: block; } }
 
-}
+/*# sourceMappingURL=menubar.css.map */
