@@ -35,7 +35,7 @@
 }
 
 .contents {
-  width: 600px;
+  width: 750px;
   margin-left: 70px;
   font-family: AkzidenzGroteskPro-Regular;
   display: flex;
@@ -119,6 +119,11 @@
   padding-top: 10px;
   padding-left: 15px;
   background-color: white;
+  display: none;
+}
+
+#ni3:hover .contentList {
+  display: block;
 }
 
 .contentListItem {
@@ -139,8 +144,29 @@
   /*background-color: yellow;*/
 }
 
+#hamb {
+  width: 25px;
+  height: 25px;
+  position: relative;
+  display: none;
+
+  background-image: url(../img/hamburger.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 @media (max-width: 1129px) {
   .menubar {
     font-size: 13px;
   }
+
+  .navigation div {
+    display: none;
+  }
+
+  #hamb {
+    display: block;
+  }
+
 }
