@@ -159,7 +159,7 @@
 .hambItem:hover {
   text-decoration: underline; }
 
-@media (max-width: 1350px) {
+@media (max-width: 1400px) {
   .fullmenu {
     display: none; }
 

@@ -32,7 +32,7 @@ $(function() {
 			var scrollTo = $(this).attr('href');
 			var whitespace = scrollTo == '#s1' ? 70 : 30
 			$('html,body').animate({
-				scrollTop: $(scrollTo).offset().top - whitespace
+				scrollTop: $(scrollTo).offset().top - whitespace - 20
 			}, 500);
 		});
 	});
@@ -50,7 +50,7 @@ $(function() {
 		if ((elTop) > (docHeight + 505))  {ni3name.innerHTML = "Экскурсии"}
 		if ((elTop) > (docHeight + 1395)) {ni3name.innerHTML = "Здание и экспозиция"}
 		if ((elTop) > (docHeight + 2076)) {ni3name.innerHTML = "У нас работают"}
-		if ((elTop) > (docHeight + 2720)) {ni3name.innerHTML = "Выдающиеся сотрудники разных лет"}
+		if ((elTop) > (docHeight + 2570)) {ni3name.innerHTML = "Выдающиеся сотрудники разных лет"}
 		if ((elTop) < (docHeight - 50))   {ni3name.innerHTML = "Галерея"}
 	}
 

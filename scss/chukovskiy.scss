@@ -17,8 +17,9 @@ body {
     // width: 5800px;
     font-family: OldStandard-Regular;
     font-size: 17px;
-    margin-left: calc(-5790px + 100vh);
+    margin-left: calc(-5730px + 100vh);
     display: block;
+    text-align: left;
   }
 
   z-index: 3
@@ -230,8 +231,8 @@ nav {
 h1 {
   font-family: AkzidenzGroteskPro-Md;
   font-size: 64px;
-  margin-top: 65px;
-  margin-left: -17px;
+  margin-top: 75px;
+  // margin-left: -17px;
 
 
   &+p {
@@ -403,7 +404,7 @@ lead {
     font-size: 26px;
     line-height: 30px;
     margin-top: 12px;
-    margin-left: -10px;
+    // margin-left: -10px;
   }
 
   p {
@@ -411,7 +412,7 @@ lead {
     font-family: AkzidenzGroteskPro-Regular;
     font-size: 12px;
     line-height: 14px;
-    margin-top: 7px;
+    margin-top: 4px;
     width: 200px;
   }
 }
@@ -453,7 +454,7 @@ img {
 .footer {
   width: 712px;
   height: 115px;
-  margin-top: 90px;
+  margin-top: 100px;
   position: relative;
 
   display: flex;
@@ -488,4 +489,24 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media (max-width: 1280px) {
+  .logoLine {
+    opacity: 0;
+  }
+}
+
+@media (max-width: 1150px) {
+  .textTables {
+    transform: scale(.7);
+    margin-top: -30px;
+    margin-bottom: -30px;
+  }
+
+  .logoLine {
+    p {
+      margin-left: calc(-5610px + 100vh);
+    }
+  }
 }
