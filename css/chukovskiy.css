@@ -399,11 +399,9 @@ img {
     opacity: 0; } }
 @media (max-width: 1150px) {
   .textTables {
-    transform: scale(0.7);
-    margin-top: -30px;
-    margin-bottom: -30px; }
+    transform: scale(0.8); }
 
-  .logoLine p {
-    margin-left: calc(-5610px + 100vh); } }
+  .workers {
+    margin-left: -130px; } }
 
 /*# sourceMappingURL=chukovskiy.css.map */

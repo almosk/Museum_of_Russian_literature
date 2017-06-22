@@ -494,19 +494,27 @@ img {
 @media (max-width: 1280px) {
   .logoLine {
     opacity: 0;
+
+    // p {
+    //   margin-left: calc(-5420px + 100vh);
+    // }
   }
 }
 
 @media (max-width: 1150px) {
   .textTables {
-    transform: scale(.7);
-    margin-top: -30px;
-    margin-bottom: -30px;
+    transform: scale(.8);
+    // margin-top: -30px;
+    // margin-bottom: -30px;
   }
 
-  .logoLine {
-    p {
-      margin-left: calc(-5610px + 100vh);
-    }
+  .workers {
+    // transform: scale(.8);
+    margin-left: -130px;
   }
+
+  // .info {
+  //   margin-top: -15px;
+  //   transform: scale(.8);
+  // }
 }
