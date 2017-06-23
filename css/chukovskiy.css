@@ -398,7 +398,7 @@ img {
   .logoLine {
     opacity: 0; } }
 @media (max-width: 1150px) {
-  .textTables {
+  .textTables, .info, .footer, .workers {
     transform: scale(0.8); }
 
   .workers {
