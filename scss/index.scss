@@ -1,7 +1,12 @@
 body {
+
+}
+
+.main {
   width: 100vw;
   height: 100vh;
   overflow: hidden;
+  position: relative;
 }
 
 .hidden {
@@ -63,6 +68,10 @@ a:hover {
 #mi10 {margin-left: 175px;}
 #mi11 {margin-left: 161px;}
 #mi12 {margin-left: 335px;}
+
+.backgrounds {
+  position: absolute;
+}
 
 .backgroundsItem {
   overflow: hidden;
@@ -139,6 +148,7 @@ img {
   position: absolute;
   z-index: 3;
   color: #1324A5;
+  // overflow: hidden;
 }
 
 .top {
